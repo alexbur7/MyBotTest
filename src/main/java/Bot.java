@@ -41,7 +41,7 @@ public class Bot extends TelegramLongPollingBot {
                 sendMsg(message,"Я бот Витя, я буду тебе помогать узнавать курсы валют");
             }
             else if ("/course".equals(text)){
-                sendMsg(message,"Окей, тогда вводи валюты в формате USDRUB");
+                sendMsg(message,"Окей, тогда вводи валюту в формате USD");
             }
             else {
                 try {
